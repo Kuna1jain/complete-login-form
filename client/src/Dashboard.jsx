@@ -19,7 +19,13 @@ function Dashboard() {
     }, [])
     return ( 
         <div>
-            <h2>dashboard</h2>
+            <h2>Welcome to Croppinn</h2>
+            <Link to="/register" className="btn btn-default border w-100 bg-light rounded-0 text-decoration-none">
+            Sign Up
+          </Link>
+          <Link to="/login" className="btn btn-default border w-100 bg-light rounded-0 text-decoration-none">
+            Login
+          </Link>
             <p>{suc}</p>
         </div>
 
